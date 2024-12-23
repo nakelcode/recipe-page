@@ -1,0 +1,85 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: hsl(30, 54%, 90%);
+    color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 16px;
+    font-family: "Outfit", sans-serif;
+}
+main{
+    background-color: hsl(0, 0%, 100%);
+    border: 1px solid transparent;
+
+}
+#main-container{
+    padding: 20px;
+    margin: 0;
+}
+.container{
+    padding: 0;
+    margin: 0;
+}
+.main-content{
+    padding-top: 10px;
+    margin-top: 5px;
+}
+#first-content, p{
+    padding-top: 10px;
+    margin: 0;
+}
+#second-content{
+    border: 1px solid transparent;
+    background-color: hsl(330, 100%, 98%);
+    padding: 13px;
+    border-radius: 9px;
+    margin: 10px;
+
+}
+h2{
+    color: hsl(14, 45%, 36%);
+    font-family: "Young serif", sans-serif;
+}
+h1{
+    font-family: "Young serif", sans-serif;
+}
+#content-one{
+    padding-left: 15px;
+    margin: 10px;
+    list-style-position: outside;
+}
+.content-two{
+    padding-top: 20px;
+    margin: 0;
+}
+li{
+    padding-left: 10px;
+}
+img{
+    width: 100%;
+}
+.line{
+    width: 90%;
+    background-color: hsl(30, 18%, 87%);
+    height: 2px;
+    margin: 20px auto;
+}
+span{
+    margin-left: 35px;
+}
+table td, 
+table th{
+    padding: 15px 20px;
+    text-align: left;
+    border-bottom: 1px solid hsl(30, 54%, 90%);
+}
+@media screen and (min-width: 1440px){
+    img{
+        width: 100%;
+        border-radius: 7px;
+    }
+}
